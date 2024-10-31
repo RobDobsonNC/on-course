@@ -1,0 +1,32 @@
+{
+   "course_mode":{
+		"single":"Course Mode",
+		"plural":"Course Modes",
+		"args":{
+			"hierarchical" : true,
+			"public" : true,
+			"has_archive" : false,
+			"show_in_menu" : true,
+			"show_ui" : true,
+			"menu_icon"	: "dashicons-welcome-learn-more",
+			"supports" : [ "title", "thumbnail", "excerpt" ],
+			"capabilities": {
+				"delete_others_posts"   :  "delete_others_course_modes",
+				"delete_posts"          :  "delete_course_modes",
+				"delete_private_posts"  :  "delete_private_course_modes",
+				"delete_published_posts":  "delete_published_course_modes",
+				"edit_others_posts"     :  "edit_others_course_modes",
+				"edit_posts"            :  "edit_course_modes",
+				"edit_private_posts"    :  "edit_private_course_modes",
+				"edit_published_posts"  :  "edit_published_course_modes",
+				"publish_posts"         :  "publish_course_modes",
+				"read_private_posts"    :  "read_private_course_modes"
+			},
+			"taxonomies" : ["post_tag"],
+			"rewrite": {
+				"slug" : "course",
+				"with_front" : false
+			}
+		}
+   }
+}

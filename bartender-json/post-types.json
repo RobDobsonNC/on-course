@@ -1,0 +1,22 @@
+{
+	"course":{
+		"single":"Course",
+		"plural":"Courses",
+		"args":{
+			"hierarchical" : true,
+			"public" : true,
+			"has_archive" : "courses",
+			"menu_icon"	: "dashicons-welcome-learn-more",
+			"supports" : [ "title", "thumbnail", "excerpt" ],
+			"capabilities": true,
+			"taxonomies" : ["post_tag"],
+			"rewrite": {
+				"with_front" : false
+			}
+		},
+		"labels":{
+			"add_new":"New Course"
+		}
+	}
+}
+
